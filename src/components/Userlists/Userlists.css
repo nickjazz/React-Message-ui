@@ -1,0 +1,40 @@
+.Userlists {
+  background: #f4f6f7;
+  width: 25vw;
+  max-width: 300px;
+  height: calc(80vh - 50px);
+  overflow: auto;
+  border-right: 1px solid #ebedef;
+  display: none; }
+  @media (min-width: 768px) and (max-width: 990px) {
+    .Userlists .UserItem {
+      padding: 1rem; }
+    .Userlists .AvatarImage {
+      width: 30px;
+      height: 30px; } }
+  @media (min-width: 768px) {
+    .Userlists {
+      display: block; } }
+
+.UserItem {
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px solid #ebedef;
+  transition: all .4s ease; }
+  .UserItem:hover {
+    background-color: #fff; }
+
+.Search {
+  border-bottom: 1px solid #ebedef;
+  padding: 0 1rem; }
+
+.SearchInput {
+  width: 100%;
+  border: none;
+  color: #333;
+  font-weight: 300;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  background: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png") center left no-repeat;
+  background-size: 20px; }
+  .SearchInput::-webkit-input-placeholder {
+    color: #ccc;
+    font-weight: 300; }

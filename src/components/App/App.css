@@ -1,0 +1,11 @@
+#root {
+  width: 100%;
+  max-width: 80vw;
+  min-height: 80vh;
+  background-color: #fff;
+  border-radius: .2rem;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.22); }
+
+.AppWrapper {
+  display: flex; }

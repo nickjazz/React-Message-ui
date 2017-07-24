@@ -1,0 +1,45 @@
+.Avatar
+  display: flex
+  font-weight: 300
+.AvatarImage
+  display: block
+  border-radius: 50%
+.AvatarCol
+  flex-direction: column
+  align-items: center
+  text-align: center
+  .AvatarInfo
+    margin-top: 1rem
+.AvatarRow
+  align-items: center
+  .AvatarImage
+    margin: 0 1rem 0 0
+  .Status
+    font-size: 90%
+
+
+.AvatarImage
+  margin: 0 1rem
+
+// Status
+.Status
+  color: #ccc
+  display: block
+  font-size: 14px
+  &:before
+    content: ''
+    width: 6px
+    height: 6px
+    margin-right: .4rem
+    border-radius: 50%
+    background: red
+    display: none
+  &.Status-online:before
+    background: #45c8dc
+    display: inline-flex
+  &.Status-active:before
+    background: #e1e907
+    display: inline-flex
+  &.Status-offline:before
+    background: #f22a15
+    display: inline-flex

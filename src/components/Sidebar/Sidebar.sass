@@ -1,0 +1,34 @@
+.Sidebar
+  background: #f6f7f8
+  width: 20vw
+  max-width: 250px
+  padding: 1rem
+  height: calc(80vh - 50px)
+  overflow: auto
+  border-right: 1px solid darken(#f6f7f8, 4%)
+  display: none
+  @media (min-width: 960px)
+    display: block
+
+.SidebarTop
+  margin: 3rem 0
+
+// Menu
+.MenuItem
+  display: flex
+  align-items: center
+  padding: 1rem .6rem
+  margin: 1rem 0
+  cursor: pointer
+  color: #bfbfbf
+  transition: all .4s ease
+  border-radius: .2rem
+  &:hover, &.active
+    background: #fff
+    color: #1b1d1f
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .2)
+.MenuIcon
+  margin-right: 1rem
+  display: flex
+.MenuText
+  font-weight: 300
